@@ -1,0 +1,58 @@
+[
+    {
+        "userId": "1",
+        "name": "Shourya", 
+        "email": "contactshourya00@gmail.com",
+        "stepsWalked":"3700",
+        "stepsTarget":"4500",
+        "performedDate":"17 AUG",
+        "scheduledDate":"21 AUG",
+        "calorieIntake":"2608",
+        "calorieTarget":"2300",
+        "proteinConsumed":"60",
+        "proteinTarget": "80",
+        "carbConsumed":"30",
+        "carbTarget":"60",
+        "fatConsumed":"35",
+        "fatTarget":"50",
+        "feedback":true
+
+
+    },
+    {
+        "userId": "2",
+        "name": "Alex", 
+        "email": "contactalex00@gmail.com",
+        "stepsWalked":"3456",
+        "stepsTarget":"4800",
+        "performedDate":"15 AUG",
+        "scheduledDate":"22 AUG",
+        "calorieIntake":"2348",
+        "calorieTarget":"2500",
+        "proteinConsumed":"50",
+        "proteinTarget": "80",
+        "carbConsumed":"30",
+        "carbTarget":"60",
+        "fatConsumed":"35",
+        "fatTarget":"50",
+        "feedback":false
+    },
+    {
+        "userId": "3",
+        "name": "Charan", 
+        "email": "contactcharan00@gmail.com",
+        "stepsWalked":"4100",
+        "stepsTarget":"5300",
+        "performedDate":"19 AUG",
+        "scheduledDate":"19 AUG",
+        "calorieIntake":"2100",
+        "calorieTarget":"2800",
+        "proteinConsumed":"40",
+        "proteinTarget": "70",
+        "carbConsumed":"50",
+        "carbTarget":"80",
+        "fatConsumed":"25",
+        "fatTarget":"40",
+        "feedback":false
+    }
+]
