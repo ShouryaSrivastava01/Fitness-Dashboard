@@ -1,0 +1,182 @@
+.user{
+    width: 100%;
+height: 80px;
+color: white;
+background: #1E262F;
+border-radius: 10px;
+margin: 20px 0;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+
+
+.steps-chart{
+   width: 55%;
+   position: relative;
+}
+.steps-chart .sub{
+    font-size: 10px;
+}
+
+
+.nutri-chart{
+    width:35%;
+    
+}
+.nutri-chart:hover{
+    cursor: pointer;
+}
+
+
+
+.profile{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    padding: 2px 10px;
+
+}
+
+.user-details{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    width: 75%;
+}
+.steps{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    justify-content: space-between;
+}
+.steps div{
+    display: flex;
+    flex-direction: column;
+}
+.workout{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.workout .outer{
+    display: flex;
+    flex-direction: column;
+}
+.date-style{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 3px 0;
+    padding: 3px 2px;
+    border-radius: 5px;
+
+}
+.date-style img{
+    width: 2rem;
+    height: 1.5rem;
+}
+.nutrition{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    justify-content: space-between;
+    position: relative;
+    
+}
+/* .nutrition div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.nutrition-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.chart-data{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1px 0px;
+    font-size: 0.9rem;
+}
+.chart-data span{
+    font-size: 10px;
+    padding: 2px 0;
+}
+.btn{
+   
+    background: #101317;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    width: 100%;
+
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.alert{
+    background-color: #36F5C7;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 6px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert button{
+    background: none;
+    border: none;
+}
+.alert:hover{
+    cursor: pointer;
+}
+
+.arrow-btn{
+    height: 3.5rem;
+    width: 1.5rem;
+    padding: 0px 9px;
+    border-radius: 5px;
+    border: none;
+    background-color: #101317;
+}
+
+.arrow-btn:hover{
+    cursor: pointer;
+}
+
+
+[red]{
+    background: #CC3838;
+}
+
+.nutri-details{
+    height: 10rem;
+    width: 12rem;
+    position: absolute;
+    /* position: sticky; */
+    /* left: -46px; */
+    top: 4.5rem;
+    bottom: -167px;
+    right: 2rem;
+    margin: 0px;
+    z-index: 1000;
+    background: #333B44;
+    border-radius: 8px;
+}
+.disabled{
+    pointer-events: none;
+  cursor: no-drop;
+  }

@@ -1,0 +1,54 @@
+.bar-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.nutrients{
+    width: 90%;
+    background: #1B222A;;
+    /* margin: auto; */
+    height: 25%;
+    /* border: 1px solid; */
+    border-radius: 5px;
+}
+.heading{
+    position: relative;
+    height: 50%;
+    padding:1px 0px;
+    font-size: 12px;
+}
+.bar{
+    background: black;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    font-size: 9px;
+    margin: auto;
+}
+.status{
+    border-radius: 10px;
+    content: "";
+}
+.nutrient{
+    position: absolute;
+    left: 10px;
+}
+.quantity{
+    position: absolute;
+    right: 10px;
+}
+
+.pink{
+    background-color: #F45C84;
+    color: #F45C84;
+}
+.blue{
+    background-color: #03C6FA;
+    color: #03C6FA;
+}
+.yellow{
+    background-color: #F0C50F;
+    color:#F0C50F
+}

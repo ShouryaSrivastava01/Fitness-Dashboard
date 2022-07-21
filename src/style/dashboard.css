@@ -1,0 +1,33 @@
+.dash{
+    height: 80%;
+    width: 90%;
+    background: #101317;
+    box-shadow: 2px 3px 42px rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    padding: 0px 15px;
+}
+
+.users{
+    height: 85%;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    height: 10%;
+}
+
+.menu span{
+    text-align: center;
+}
+.detail{
+    width: 45%;
+}
+.feature{
+    width: 15%;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+}
