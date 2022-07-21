@@ -11,4 +11,4 @@ Design to reflect the tracked
 * Workout
 * Macro Nutrients
 
-![React](C:\Users\HP\Desktop\pictures\Captures)
+<img href="C:\Users\HP\Desktop\pictures\Captures\screenshot.png"/>
