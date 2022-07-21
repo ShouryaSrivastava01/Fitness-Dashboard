@@ -11,4 +11,4 @@ Design to reflect the tracked
 * Workout
 * Macro Nutrients
 
-<img href="screenshot.png">
+<img src="screenshot.png">
