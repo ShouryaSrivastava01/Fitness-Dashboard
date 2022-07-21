@@ -11,4 +11,4 @@ Design to reflect the tracked
 * Workout
 * Macro Nutrients
 
-<img href="C:\Users\HP\Desktop\pictures\Captures\screenshot.png"/>
+<img href="screenshot.png"/>
