@@ -15,5 +15,5 @@ Design to reflect the tracked
 
 # Packages
 
-* <a href="https://www.npmjs.com/package/react-minimal-pie-chart">react-minimal-pie-chart</a>
-* <a href="https://www.npmjs.com/package/react-circular-progressbar">react-circular-progressbar</a>
+* <a href="https://www.npmjs.com/package/react-minimal-pie-chart" target="_blank">react-minimal-pie-chart</a>
+* <a href="https://www.npmjs.com/package/react-circular-progressbar" target="_blank">react-circular-progressbar</a>
