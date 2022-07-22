@@ -12,3 +12,8 @@ Design to reflect the tracked
 * Macro Nutrients
 
 <img src="screenshot.png">
+
+# Packages
+
+* <a href="https://www.npmjs.com/package/react-minimal-pie-chart">react-minimal-pie-chart</a>
+* <a href="https://www.npmjs.com/package/react-circular-progressbar">react-circular-progressbar</a>
