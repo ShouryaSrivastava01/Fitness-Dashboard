@@ -13,7 +13,7 @@ justify-content: space-around;
 
 
 .steps-chart{
-   width: 55%;
+   width: 4rem;
    position: relative;
 }
 .steps-chart .sub{
@@ -22,7 +22,7 @@ justify-content: space-around;
 
 
 .nutri-chart{
-    width:35%;
+    width:4rem;
     
 }
 .nutri-chart:hover{

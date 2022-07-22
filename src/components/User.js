@@ -47,9 +47,11 @@ export default function User(props) {
             setBtnContent(<img src={exclam} alt="" />)
             setColor("red")
         }
-
-        const d1 = new Date(props.data['performedDate'])
-        const d2 = new Date(props.data['scheduledDate'])
+        const now = new Date();
+        const d1 = new Date(now.getFullYear(),now.getMonth(),now.getDate())
+        const d2 = new Date(props.data['scheduledDate']+2022)
+        console.log(d1)
+        
         if (d1.valueOf() === d2.valueOf()) {
             document.getElementById(props.data['userId']).style.backgroundColor = 'red'
             setBtnContent(<img src={exclam} alt="" />)
