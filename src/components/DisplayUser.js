@@ -16,7 +16,6 @@ export default function DisplayUser() {
             setUserData(data)
         })
     }, [])
-    console.log("rendering")
     return (
         <>
             {

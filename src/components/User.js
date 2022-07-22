@@ -50,8 +50,6 @@ export default function User(props) {
         const now = new Date();
         const d1 = new Date(now.getFullYear(),now.getMonth(),now.getDate())
         const d2 = new Date(props.data['scheduledDate']+2022)
-        console.log(d1)
-        
         if (d1.valueOf() === d2.valueOf()) {
             document.getElementById(props.data['userId']).style.backgroundColor = 'red'
             setBtnContent(<img src={exclam} alt="" />)
@@ -88,6 +86,7 @@ export default function User(props) {
                     <span>{props.data['email']}</span>
                 </div>
             </div>
+         
             <div className="steps">
                 <div className="steps-chart">
                     <StepsChart steps={steps} target={stepsTarget} />
@@ -128,6 +127,8 @@ export default function User(props) {
 
                     < NutriBarChart data={nutri}/>
                 </div>
+
+            
 
             </div>
             <div className="alert">

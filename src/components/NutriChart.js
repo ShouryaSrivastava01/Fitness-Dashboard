@@ -3,8 +3,6 @@ import { PieChart } from 'react-minimal-pie-chart';
 
 
 export default function NutriChart({ data, calorie }) {
-  console.log(data.protein['consumed'])
-
   const dataMock = [
     { title: 'Two', value: parseInt(data.fat['consumed']), color: '#03C7FC' }, //fat
     { title: 'Three', value: parseInt(data.carb['consumed']), color: '#F5C90F' }, //carb
